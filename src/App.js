@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import ReactGA from "react-ga";
+const TRACKING_ID = "UA-265128368-2";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
